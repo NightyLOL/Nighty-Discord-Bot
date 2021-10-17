@@ -1,0 +1,24 @@
+{
+  "name": "nighty-discord-bot",
+  "version": "1.0.0",
+  "description": "Nighty Discord bot...",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "nighty-78",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "node": "^16.10.0"
+  },
+  "dependencies": {
+    "@replit/database": "^2.0.1",
+    "discord.js": "^13.2.0",
+    "express": "^4.17.1"
+  }
+}
