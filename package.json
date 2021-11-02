@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Nighty Discord bot...",
   "main": "src/index.js",
+  "bin": {
+    "cf": "./cfhandler/cli.js",
+    "cf-handler": "./cfhandler/cli.js",
+    "cfh": "./cfhandler/cli.js"
+  },
   "scripts": {
     "start": "node src/index.js"
   },
@@ -14,11 +19,20 @@
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^10.0.0",
-    "node": "^16.10.0"
+    "node": "^17.0.1"
   },
   "dependencies": {
     "@replit/database": "^2.0.1",
     "discord.js": "^13.2.0",
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "readline-sync": "^1.4.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightyLOL/Nighty-Discord-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NightyLOL/Nighty-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/NightyLOL/Nighty-Discord-Bot#readme"
 }
